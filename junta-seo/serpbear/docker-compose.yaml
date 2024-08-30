@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  app:
+    image: towfiqi/serpbear
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    environment:
+      - USER=admin
+      - PASSWORD=0123456789
+      - SECRET=4715aed3216f7b0a38e6b534a958362654e96d10fbc04700770d572af3dce43625dd
+      - APIKEY=5saedXklbslhnapihe2pihp3pih4fdnakhjwq5
+      - NEXT_PUBLIC_APP_URL=http://localhost:3000
+    volumes:
+      - serpbear_appdata:/app/data
+networks:
+  my-network:
+    driver: bridge
+volumes:
+  serpbear_appdata:
