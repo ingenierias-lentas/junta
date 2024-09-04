@@ -187,4 +187,9 @@ go.work.sum
 # env file
 .env
 
+# SEO results and setup files
+junta-seo/seo-analyzer/results.html
+junta-seo/serpbear/docker-compose.yaml
+
+# MacOS
 .DS_Store
