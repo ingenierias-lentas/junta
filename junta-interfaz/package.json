@@ -1,0 +1,34 @@
+{
+  "name": "junta-interfaz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nivo/bar": "^0.87.0",
+    "@nivo/core": "^0.87.0",
+    "@nivo/line": "^0.87.0",
+    "@ory/client": "^1.15.6",
+    "axios": "^1.7.7",
+    "iron-session": "^8.0.3",
+    "next": "14.2.15",
+    "ory-hydra-sdk": "^1.0.0-beta.9",
+    "react": "^18",
+    "react-dom": "^18",
+    "zustand": "^5.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

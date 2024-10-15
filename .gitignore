@@ -193,3 +193,9 @@ junta-seo/serpbear/docker-compose.yaml
 
 # MacOS
 .DS_Store
+
+# Deprecated
+recopiladora-data-delivery-network/
+
+# VS Code workspace
+junta.code-workspace
